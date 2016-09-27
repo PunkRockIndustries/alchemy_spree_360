@@ -49,4 +49,4 @@ end
 
 gem 'spree_auth_devise'
 gem 'alchemy_spree', github: 'magiclabs/alchemy_spree', branch: 'master'
-
+gem 'alchemy_cms', github: 'AlchemyCMS/alchemy_cms', branch: '3.4-stable'

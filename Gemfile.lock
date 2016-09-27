@@ -1,4 +1,35 @@
 GIT
+  remote: git://github.com/AlchemyCMS/alchemy_cms.git
+  revision: fcede35aeb76edd073fd16b9b282fe1ea0841b14
+  branch: 3.4-stable
+  specs:
+    alchemy_cms (3.4.1)
+      actionpack-page_caching (~> 1.0.0)
+      active_model_serializers (~> 0.9.0)
+      acts-as-taggable-on (~> 3.1)
+      acts_as_list (~> 0.3)
+      awesome_nested_set (~> 3.0.0)
+      cancancan (~> 1.9)
+      coffee-rails (~> 4.0)
+      compass-rails (>= 2.0.4, < 4.0)
+      dragonfly (~> 1.0.1)
+      dragonfly_svg (~> 0.0.4)
+      jquery-rails (~> 4.0)
+      jquery-ui-rails (~> 5.0.0)
+      kaminari (~> 0.15)
+      magiclabs-userstamp (~> 2.1.0)
+      non-stupid-digest-assets (~> 1.0.8)
+      rails (>= 4.2.0, < 5.0)
+      ransack (~> 1.4)
+      request_store (~> 1.2)
+      responders (~> 2.0)
+      sass-rails (~> 5.0)
+      sassy-buttons (~> 0.2.6)
+      select2-rails (>= 3.5.9.1, < 4.0)
+      simple_form (~> 3.0)
+      turbolinks (~> 2.5)
+
+GIT
   remote: git://github.com/magiclabs/alchemy_spree.git
   revision: 04aab8d8a3bea55af3b107c860ecd23a629de45e
   branch: master
@@ -59,31 +90,6 @@ GEM
     acts_as_list (0.7.2)
       activerecord (>= 3.0)
     addressable (2.4.0)
-    alchemy_cms (3.4.1)
-      actionpack-page_caching (~> 1.0.0)
-      active_model_serializers (~> 0.9.0)
-      acts-as-taggable-on (~> 3.1)
-      acts_as_list (~> 0.3)
-      awesome_nested_set (~> 3.0.0)
-      cancancan (~> 1.9)
-      coffee-rails (~> 4.0)
-      compass-rails (>= 2.0.4, < 4.0)
-      dragonfly (~> 1.0.1)
-      dragonfly_svg (~> 0.0.4)
-      jquery-rails (~> 4.0)
-      jquery-ui-rails (~> 5.0.0)
-      kaminari (~> 0.15)
-      magiclabs-userstamp (~> 2.1.0)
-      non-stupid-digest-assets (~> 1.0.8)
-      rails (>= 4.2.0, < 5.0)
-      ransack (~> 1.4)
-      request_store (~> 1.2)
-      responders (~> 2.0)
-      sass-rails (~> 5.0)
-      sassy-buttons (~> 0.2.6)
-      select2-rails (>= 3.5.9.1, < 4.0)
-      simple_form (~> 3.0)
-      turbolinks (~> 2.5)
     arel (6.0.3)
     autoprefixer-rails (6.5.0)
       execjs
@@ -394,6 +400,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  alchemy_cms!
   alchemy_spree!
   byebug
   coffee-rails (~> 4.1.0)
